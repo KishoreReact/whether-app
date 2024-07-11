@@ -1,4 +1,3 @@
-// src/App.js
 
 import React, { useEffect, useState } from 'react';
 import WeatherCard from './components/WeatherCard';
@@ -29,12 +28,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="text-3xl font-bold mb-4">Weather App</h1>
-       
+
       </header>
       <main className="container mx-auto">
-        
-        {weatherData ? <WeatherCard 
-        weather={weatherData} 
+
+        {weatherData ? <WeatherCard
+          weather={weatherData}
         /> : <p>Loading...</p>}
       </main>
     </div>

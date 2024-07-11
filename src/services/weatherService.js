@@ -1,4 +1,3 @@
-// src/services/weatherService.js
 
 const apiKey = '8cbefe5b47464790a255c44c715bdf00';
 
